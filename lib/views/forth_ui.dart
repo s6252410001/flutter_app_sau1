@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 
 class ForthUI extends StatefulWidget {
@@ -10,6 +12,17 @@ class ForthUI extends StatefulWidget {
 class _ForthUIState extends State<ForthUI> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.pink,
+        title: Text(
+          'Forth UI ไอที',
+          style: TextStyle(
+            fontFamily: 'Kanit',
+          ),
+        ),
+        centerTitle: true,
+      ),
+    );
   }
 }
