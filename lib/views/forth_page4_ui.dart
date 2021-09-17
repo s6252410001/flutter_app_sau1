@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ForthTabpage1UI extends StatelessWidget {
-  const ForthTabpage1UI({ Key? key }) : super(key: key);
+class ForthTabpage4UI extends StatelessWidget {
+  const ForthTabpage4UI({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,12 +9,12 @@ class ForthTabpage1UI extends StatelessWidget {
 
       body: Center(
         child: Text(
-          'สวัสดี',
+          'บ๊ายบาย',
           style: TextStyle(
             fontSize: 50.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'Kanit',
-            color: Colors.blue
+            color: Colors.blueGrey
           ),
         ),
       ),
